@@ -7,7 +7,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 logging.basicConfig(level=logging.INFO)
 
 # Создаем экземпляр бота и диспетчера
-bot = Bot(token='5261364018:AAE3YXO5V5xVE-cqQDAgk2j0cAp3MR-1dVA')
+bot = Bot(token='bot_token')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
